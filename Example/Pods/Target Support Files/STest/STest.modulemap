@@ -1,0 +1,6 @@
+framework module STest {
+  umbrella header "STest-umbrella.h"
+
+  export *
+  module * { export * }
+}
