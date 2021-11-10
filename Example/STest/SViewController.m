@@ -7,6 +7,7 @@
 //
 
 #import "SViewController.h"
+#import <STest/STestLog.h>
 
 @interface SViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [STestLog log];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
